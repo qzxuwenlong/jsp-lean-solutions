@@ -11,6 +11,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 |---|---|---|---|
 | JSP-000301 | `jsp301.lean` | `jsp_301_counterexample`, `jsp_301_answer_no` | `hasErrors = false`, exit 0 |
 | JSP-000307 | `jsp307.lean` | `jsp_307_answer`, `jsp_307_counterexample` | `hasErrors = false`, exit 0 |
+| JSP-000779 | 1728, 1764, 1800 (three consecutive powerful in AP) | jsp779.lean | jsp_779 |
 
 ## Environment
 
