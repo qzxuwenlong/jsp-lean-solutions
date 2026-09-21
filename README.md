@@ -13,6 +13,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000307 | `jsp307.lean` | `jsp_307_answer`, `jsp_307_counterexample` | `hasErrors = false`, exit 0 |
 | JSP-000779 | 1728, 1764, 1800 (three consecutive powerful in AP) | jsp779.lean | jsp_779 |
 | JSP-000705 | run of 13 pairwise distinct prime gaps (70657..70843) | jsp705.lean | jsp_705 |
+| JSP-000566 | prime chain of length 8 (2..22697) | jsp566.lean | jsp_566 |
 
 ## Environment
 
