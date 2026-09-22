@@ -16,6 +16,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000566 | prime chain of length 8 (2..22697) | jsp566.lean | jsp_566 |
 | JSP-000599 | smallest non-divisor of central binomial coeff = 19 (n=77) | jsp599.lean | jsp_599_answer |
 | JSP-000351 | relatively dense even set; every even a has infinitely many prime differences y−a | jsp351.lean | jsp351 |
+| JSP-000316 | interval [1680,1683] length 4; all prime factors ≤ 41, 41^2=1681 in interval (repeated largest prime factor) | jsp316.lean | jsp316 |
 
 ## Environment
 
