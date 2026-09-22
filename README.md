@@ -14,6 +14,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000779 | 1728, 1764, 1800 (three consecutive powerful in AP) | jsp779.lean | jsp_779 |
 | JSP-000705 | run of 13 pairwise distinct prime gaps (70657..70843) | jsp705.lean | jsp_705 |
 | JSP-000566 | prime chain of length 8 (2..22697) | jsp566.lean | jsp_566 |
+| JSP-000599 | smallest non-divisor of central binomial coeff = 19 (n=77) | jsp599.lean | jsp_599_answer |
 
 ## Environment
 
