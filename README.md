@@ -18,6 +18,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000351 | relatively dense even set; every even a has infinitely many prime differences y−a | jsp351.lean | jsp351 |
 | JSP-000316 | interval [1680,1683] length 4; all prime factors ≤ 41, 41^2=1681 in interval (repeated largest prime factor) | jsp316.lean | jsp316 |
 | JSP-000553 | negative answer: n=4 counterexample — every composite m ≠ 4 has prime factor p ≤ (m−4)² | jsp553.lean | jsp553 |
+| JSP-000552 | trivial affirmative: m = n+1, prime factor p ≥ 2 > 1 = (m−n)² | jsp552.lean | jsp552 |
 
 ## Environment
 
