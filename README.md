@@ -26,6 +26,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000267 | affirmative: 5 supersequence integers, all 31 subset sums distinct | jsp267.lean | jsp267 |
 | JSP-000179 | affirmative: (2, 4, 8, 16) non-averaging set, 44 checks | jsp179.lean | jsp179 |
 | JSP-000360 | affirmative: 8 divisors of 24, all pairwise lcm ≤ 24 | jsp360.lean | jsp360 |
+| JSP-000266 | (1, 2, 3) reciprocals: 7 distinct subset sums | jsp266.lean | jsp266 |
 
 ## Environment
 
