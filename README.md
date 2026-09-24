@@ -24,6 +24,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000786 | affirmative: 6 consecutive integers with pairwise distinct divisor counts | jsp786.lean | jsp786 |
 | JSP-001017 | affirmative: path (k+1,1), gcd=1, second coordinate 1 never prime | jsp1017.lean | jsp1017 |
 | JSP-000267 | affirmative: 5 supersequence integers, all 31 subset sums distinct | jsp267.lean | jsp267 |
+| JSP-000179 | affirmative: (2, 4, 8, 16) non-averaging set, 44 checks | jsp179.lean | jsp179 |
 
 ## Environment
 
