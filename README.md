@@ -22,6 +22,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000246 | affirmative: separated intervals [2,3] and [6,6], 1/2+1/3+1/6=1 | jsp246.lean | jsp246 |
 | JSP-000141 | affirmative: 8×9=72=2^3·3^2, every prime exponent ≥ 2 | jsp141.lean | jsp141 |
 | JSP-000786 | affirmative: 6 consecutive integers with pairwise distinct divisor counts | jsp786.lean | jsp786 |
+| JSP-001017 | affirmative: path (k+1,1), gcd=1, second coordinate 1 never prime | jsp1017.lean | jsp1017 |
 
 ## Environment
 
