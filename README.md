@@ -28,6 +28,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000360 | affirmative: 8 divisors of 24, all pairwise lcm ≤ 24 | jsp360.lean | jsp360 |
 | JSP-000266 | (1, 2, 3) reciprocals: 7 distinct subset sums | jsp266.lean | jsp266 |
 | JSP-000725 | (1, 2, 4, 8): subset sums distinct across cardinalities | jsp725.lean | jsp725 |
+| JSP-000616 | 8 odd-only sum-free subsets of [1,5] (2^ceil(5/2)) | jsp616.lean | jsp616 |
 
 ## Environment
 
