@@ -25,6 +25,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-001017 | affirmative: path (k+1,1), gcd=1, second coordinate 1 never prime | jsp1017.lean | jsp1017 |
 | JSP-000267 | affirmative: 5 supersequence integers, all 31 subset sums distinct | jsp267.lean | jsp267 |
 | JSP-000179 | affirmative: (2, 4, 8, 16) non-averaging set, 44 checks | jsp179.lean | jsp179 |
+| JSP-000360 | affirmative: 8 divisors of 24, all pairwise lcm ≤ 24 | jsp360.lean | jsp360 |
 
 ## Environment
 
