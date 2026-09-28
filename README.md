@@ -43,6 +43,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000254 | full set [1,4]: no reciprocal equals sum of two others (24 lcm checks) | jsp254.lean | jsp254 |
 | JSP-000432 | 8 elements in [1,12]: all 12 distinct quotients a/gcd(a,b) | jsp432.lean | jsp432 |
 | JSP-000253 | full set [1,5]: no reciprocal equals sum of others (75 lcm checks) | jsp253.lean | jsp253 |
+| JSP-000245 | interval pair [1,2]+[2,2]: reciprocal sum 2 (integer) | jsp245.lean | jsp245 |
 
 ## Environment
 
