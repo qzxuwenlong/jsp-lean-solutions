@@ -40,6 +40,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000433 | (3, 4, 5, 7) in [1,8]: all 6 lcm > 8, reciprocal sum 389/420 | jsp433.lean | jsp433 |
 | JSP-000256 | 1 = 1/2+1/3+1/6; all [2,5] subsets ≠ 1: minimal largest denom 6 | jsp256.lean | jsp256 |
 | JSP-000728 | 5 inclusion-maximal sum-free subsets of [1,5] | jsp728.lean | jsp728 |
+| JSP-000254 | full set [1,4]: no reciprocal equals sum of two others (24 lcm checks) | jsp254.lean | jsp254 |
 
 ## Environment
 
