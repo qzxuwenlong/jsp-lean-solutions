@@ -32,6 +32,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000428 | 15 evens of [1,30], all pairwise gcd > 1 | jsp428.lean | jsp428 |
 | JSP-000357 | 10 elts of [1,20], no two sum to a square | jsp357.lean | jsp357 |
 | JSP-000653 | 5 primes of [1,11], all 31 subset products distinct | jsp653.lean | jsp653 |
+| JSP-000476 | 5 elts of [1,15], no nonempty subset sum is a square | jsp476.lean | jsp476 |
 
 ## Environment
 
