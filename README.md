@@ -34,6 +34,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000653 | 5 primes of [1,11], all 31 subset products distinct | jsp653.lean | jsp653 |
 | JSP-000476 | 5 elts of [1,15], no nonempty subset sum is a square | jsp476.lean | jsp476 |
 | JSP-000697 | n=3: shortest following interval [4,12] (3·12=6²), 4..11 all non-squares | jsp697.lean | jsp697 |
+| JSP-000633 | 6-el supersequence Sidon in [1,32], 15 pairwise sums distinct | jsp633.lean | jsp633 |
 
 ## Environment
 
