@@ -37,6 +37,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000633 | 6-el supersequence Sidon in [1,32], 15 pairwise sums distinct | jsp633.lean | jsp633 |
 | JSP-000632 | 4 elts of [1,8]: all 15 subset sums avoid 9 | jsp632.lean | jsp632 |
 | JSP-000356 | seq (4,16,256): products 4,64,16384 all squares | jsp356.lean | jsp356 |
+| JSP-000433 | (3, 4, 5, 7) in [1,8]: all 6 lcm > 8, reciprocal sum 389/420 | jsp433.lean | jsp433 |
 
 ## Environment
 
