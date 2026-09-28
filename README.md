@@ -41,6 +41,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000256 | 1 = 1/2+1/3+1/6; all [2,5] subsets ≠ 1: minimal largest denom 6 | jsp256.lean | jsp256 |
 | JSP-000728 | 5 inclusion-maximal sum-free subsets of [1,5] | jsp728.lean | jsp728 |
 | JSP-000254 | full set [1,4]: no reciprocal equals sum of two others (24 lcm checks) | jsp254.lean | jsp254 |
+| JSP-000432 | 8 elements in [1,12]: all 12 distinct quotients a/gcd(a,b) | jsp432.lean | jsp432 |
 
 ## Environment
 
