@@ -38,6 +38,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000632 | 4 elts of [1,8]: all 15 subset sums avoid 9 | jsp632.lean | jsp632 |
 | JSP-000356 | seq (4,16,256): products 4,64,16384 all squares | jsp356.lean | jsp356 |
 | JSP-000433 | (3, 4, 5, 7) in [1,8]: all 6 lcm > 8, reciprocal sum 389/420 | jsp433.lean | jsp433 |
+| JSP-000256 | 1 = 1/2+1/3+1/6; all [2,5] subsets ≠ 1: minimal largest denom 6 | jsp256.lean | jsp256 |
 
 ## Environment
 
