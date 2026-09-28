@@ -44,6 +44,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000432 | 8 elements in [1,12]: all 12 distinct quotients a/gcd(a,b) | jsp432.lean | jsp432 |
 | JSP-000253 | full set [1,5]: no reciprocal equals sum of others (75 lcm checks) | jsp253.lean | jsp253 |
 | JSP-000245 | interval pair [1,2]+[2,2]: reciprocal sum 2 (integer) | jsp245.lean | jsp245 |
+| JSP-000350 | 5 elements (2, 3, 4, 5, 7) in [1,20]: all 31 subset products distinct | jsp350.lean | jsp350 |
 
 ## Environment
 
