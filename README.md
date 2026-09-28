@@ -35,6 +35,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000476 | 5 elts of [1,15], no nonempty subset sum is a square | jsp476.lean | jsp476 |
 | JSP-000697 | n=3: shortest following interval [4,12] (3·12=6²), 4..11 all non-squares | jsp697.lean | jsp697 |
 | JSP-000633 | 6-el supersequence Sidon in [1,32], 15 pairwise sums distinct | jsp633.lean | jsp633 |
+| JSP-000632 | 4 elts of [1,8]: all 15 subset sums avoid 9 | jsp632.lean | jsp632 |
 
 ## Environment
 
