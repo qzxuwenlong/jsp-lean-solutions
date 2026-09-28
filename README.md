@@ -36,6 +36,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000697 | n=3: shortest following interval [4,12] (3·12=6²), 4..11 all non-squares | jsp697.lean | jsp697 |
 | JSP-000633 | 6-el supersequence Sidon in [1,32], 15 pairwise sums distinct | jsp633.lean | jsp633 |
 | JSP-000632 | 4 elts of [1,8]: all 15 subset sums avoid 9 | jsp632.lean | jsp632 |
+| JSP-000356 | seq (4,16,256): products 4,64,16384 all squares | jsp356.lean | jsp356 |
 
 ## Environment
 
