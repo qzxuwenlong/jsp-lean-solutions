@@ -51,6 +51,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000257 | 1/3 = 1/6+1/10+1/15 (denominators products of distinct primes) | jsp257.lean | jsp257 |
 | JSP-000882 | 20 elements [11,30]: divisor pairs exactly 5 isolated pairs | jsp882.lean | jsp882 |
 | JSP-000430 | 8 elements {1,2,3,4,5,7,8,9} in [1,30]: no triple with equal pairwise LCMs | jsp430.lean | jsp430 |
+| JSP-000429 | 8 elements {4,8,9,10,15,16,27,30} in [1,30]: no triple with equal pairwise GCDs | jsp429.lean | jsp429 |
 
 ## Environment
 
