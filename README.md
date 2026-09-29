@@ -62,6 +62,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000913 | n=30 ordered divisors: 4 of 7 consecutive pairs coprime | jsp913.lean | jsp913 |
 | JSP-000137 | 7 elements {6,10,13,21,25,28,30} in [1,30]: no element divides a sum of two others | jsp137.lean | jsp137 |
 | JSP-000874 | 10 = 2+3+5 as initial segment of 30's ordered nontrivial divisors | jsp874.lean | jsp874 |
+| JSP-000709 | jsp709.lean: 7 elements, no 3-subset with equal pairwise lcms, sum 2143/840 | jsp709.lean | jsp709 |
 
 ## Environment
 
