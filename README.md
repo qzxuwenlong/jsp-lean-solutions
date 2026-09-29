@@ -45,6 +45,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000253 | full set [1,5]: no reciprocal equals sum of others (75 lcm checks) | jsp253.lean | jsp253 |
 | JSP-000245 | interval pair [1,2]+[2,2]: reciprocal sum 2 (integer) | jsp245.lean | jsp245 |
 | JSP-000350 | 5 elements (2, 3, 4, 5, 7) in [1,20]: all 31 subset products distinct | jsp350.lean | jsp350 |
+| JSP-000213 | 4/5 = 1/2+1/5+1/10 (proper distinct unit fractions) | jsp213.lean | jsp213 |
 
 ## Environment
 
