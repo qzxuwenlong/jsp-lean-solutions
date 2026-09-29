@@ -60,6 +60,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-001015 | pairwise coprime {11,10,9,7,1} in [1,12]: reciprocal distances sum to 701/330 | jsp1015.lean | jsp1015 |
 | JSP-000295 | powers of 2 sequence 1,2,4,8 in [1,16]: consecutive sums distinct | jsp295.lean | jsp295 |
 | JSP-000913 | n=30 ordered divisors: 4 of 7 consecutive pairs coprime | jsp913.lean | jsp913 |
+| JSP-000137 | 7 elements {6,10,13,21,25,28,30} in [1,30]: no element divides a sum of two others | jsp137.lean | jsp137 |
 
 ## Environment
 
