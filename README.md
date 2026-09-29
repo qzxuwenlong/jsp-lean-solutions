@@ -64,6 +64,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000874 | 10 = 2+3+5 as initial segment of 30's ordered nontrivial divisors | jsp874.lean | jsp874 |
 | JSP-000709 | jsp709.lean: 7 elements, no 3-subset with equal pairwise lcms, sum 2143/840 | jsp709.lean | jsp709 |
 | JSP-000273 | 15 elements in [1,20]: x+y never divides x*y | jsp273.lean | jsp273 |
+| JSP-000736 | 60 and 120 share 5 divisor-difference values (k=5 case) | jsp736.lean | jsp736 |
 
 ## Environment
 
