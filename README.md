@@ -53,6 +53,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000430 | 8 elements {1,2,3,4,5,7,8,9} in [1,30]: no triple with equal pairwise LCMs | jsp430.lean | jsp430 |
 | JSP-000429 | 8 elements {4,8,9,10,15,16,27,30} in [1,30]: no triple with equal pairwise GCDs | jsp429.lean | jsp429 |
 | JSP-000695 | powers of 2 {1,2,4,8,16}: no term is a consecutive-sum | jsp695.lean | jsp695 |
+| JSP-000646 | 6 elements [5,10] in S=[1,10]: all pairwise sums outside S | jsp646.lean | jsp646 |
 
 ## Environment
 
