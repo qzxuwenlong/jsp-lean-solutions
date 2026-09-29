@@ -61,6 +61,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000295 | powers of 2 sequence 1,2,4,8 in [1,16]: consecutive sums distinct | jsp295.lean | jsp295 |
 | JSP-000913 | n=30 ordered divisors: 4 of 7 consecutive pairs coprime | jsp913.lean | jsp913 |
 | JSP-000137 | 7 elements {6,10,13,21,25,28,30} in [1,30]: no element divides a sum of two others | jsp137.lean | jsp137 |
+| JSP-000874 | 10 = 2+3+5 as initial segment of 30's ordered nontrivial divisors | jsp874.lean | jsp874 |
 
 ## Environment
 
