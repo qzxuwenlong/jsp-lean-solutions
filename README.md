@@ -47,6 +47,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000350 | 5 elements (2, 3, 4, 5, 7) in [1,20]: all 31 subset products distinct | jsp350.lean | jsp350 |
 | JSP-000213 | 4/5 = 1/2+1/5+1/10 (proper distinct unit fractions) | jsp213.lean | jsp213 |
 | JSP-000265 | minimal 4-element zero-sum signed reciprocals {+1/2,+1/12,-1/3,-1/4} | jsp265.lean | jsp265 |
+| JSP-000212 | 7 elements {1,2,3,5,8,14,25} in [1,30]: all 35 3-sums distinct | jsp212.lean | jsp212 |
 
 ## Environment
 
