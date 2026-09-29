@@ -46,6 +46,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000245 | interval pair [1,2]+[2,2]: reciprocal sum 2 (integer) | jsp245.lean | jsp245 |
 | JSP-000350 | 5 elements (2, 3, 4, 5, 7) in [1,20]: all 31 subset products distinct | jsp350.lean | jsp350 |
 | JSP-000213 | 4/5 = 1/2+1/5+1/10 (proper distinct unit fractions) | jsp213.lean | jsp213 |
+| JSP-000265 | minimal 4-element zero-sum signed reciprocals {+1/2,+1/12,-1/3,-1/4} | jsp265.lean | jsp265 |
 
 ## Environment
 
