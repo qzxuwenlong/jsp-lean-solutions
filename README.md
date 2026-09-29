@@ -49,6 +49,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000265 | minimal 4-element zero-sum signed reciprocals {+1/2,+1/12,-1/3,-1/4} | jsp265.lean | jsp265 |
 | JSP-000212 | 7 elements {1,2,3,5,8,14,25} in [1,30]: all 35 3-sums distinct | jsp212.lean | jsp212 |
 | JSP-000257 | 1/3 = 1/6+1/10+1/15 (denominators products of distinct primes) | jsp257.lean | jsp257 |
+| JSP-000882 | 20 elements [11,30]: divisor pairs exactly 5 isolated pairs | jsp882.lean | jsp882 |
 
 ## Environment
 
