@@ -58,6 +58,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000649 | superincreasing {1,2,4,8,16} in [1,30]: no element equals a sum of distinct elements | jsp649.lean | jsp649 |
 | JSP-000730 | pairwise coprime {29,28,27,25,23,19,17,13,11,1} in [1,30], sum 193 | jsp730.lean | jsp730 |
 | JSP-001015 | pairwise coprime {11,10,9,7,1} in [1,12]: reciprocal distances sum to 701/330 | jsp1015.lean | jsp1015 |
+| JSP-000295 | powers of 2 sequence 1,2,4,8 in [1,16]: consecutive sums distinct | jsp295.lean | jsp295 |
 
 ## Environment
 
