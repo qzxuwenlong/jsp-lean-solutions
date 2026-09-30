@@ -68,6 +68,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000148 | exactly one 3-unit-fraction representation of 1 in [2,6]: 1/2+1/3+1/6 | jsp148.lean | jsp148 |
 | JSP-000380 | iterated sum of divisors > 1: 4 → 6 → 11, stable at 11 | jsp380.lean | jsp380 |
 | JSP-000790 | 11's preceding-prime differences 9,8,6,4; reciprocal sum 47/72 | jsp790.lean | jsp790 |
+| JSP-000701 | A={4,11,29,31} in [1,40]; every pairwise ab+1 has a nontrivial square factor | jsp701.lean | jsp701 |
 
 ## Environment
 
