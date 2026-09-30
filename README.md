@@ -70,6 +70,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000790 | 11's preceding-prime differences 9,8,6,4; reciprocal sum 47/72 | jsp790.lean | jsp790 |
 | JSP-000701 | A={4,11,29,31} in [1,40]; every pairwise ab+1 has a nontrivial square factor | jsp701.lean | jsp701 |
 | JSP-000354 | pairwise-coprime sumset of 6 elements {1,5,7,9,11,13} from A={0,4,6}, B={1,5,7} | jsp354.lean | jsp354 |
+| JSP-000579 | interval [2,8] holds distinct multiples 5,4,6,8 of 1,2,3,4 | jsp579.lean | jsp579 |
 
 ## Environment
 
