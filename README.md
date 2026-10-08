@@ -91,6 +91,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000685 | 1729 = 1³ + 12³ = 9³ + 10³ (two cube-sum representations) | jsp685.lean | jsp685 |
 | JSP-000680 | coprime pair 6, 11 with σ(6) = σ(11) = 12 | jsp680.lean | jsp680 |
 | JSP-000651 | {6,7,8,9,10} is a 5-element sum-free subset of [1,10] | jsp651.lean | jsp651 |
+| JSP-000675 | {1,2,4,8} has 6 distinct two-term sums | jsp675.lean | jsp675 |
 
 ## Environment
 
