@@ -88,6 +88,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-001013 | 4-point set {0,1,3,7} has all 6 pairwise distances distinct | jsp1013.lean | jsp1013 |
 | JSP-000918 | 72 = 36 + 27 + 9 as three powerful numbers | jsp918.lean | jsp918 |
 | JSP-001009 | admissible prime tuple {0,2,6} with span 6 | jsp1009.lean | jsp1009 |
+| JSP-000685 | 1729 = 1³ + 12³ = 9³ + 10³ (two cube-sum representations) | jsp685.lean | jsp685 |
 
 ## Environment
 
