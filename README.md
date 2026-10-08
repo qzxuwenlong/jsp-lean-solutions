@@ -89,6 +89,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000918 | 72 = 36 + 27 + 9 as three powerful numbers | jsp918.lean | jsp918 |
 | JSP-001009 | admissible prime tuple {0,2,6} with span 6 | jsp1009.lean | jsp1009 |
 | JSP-000685 | 1729 = 1³ + 12³ = 9³ + 10³ (two cube-sum representations) | jsp685.lean | jsp685 |
+| JSP-000680 | coprime pair 6, 11 with σ(6) = σ(11) = 12 | jsp680.lean | jsp680 |
 
 ## Environment
 
