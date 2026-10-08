@@ -77,6 +77,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000674 | subset sums of {1,3,9} avoid 3-term APs in [0,13] | jsp674.lean | jsp674 |
 | JSP-000921 | 37=4+6+27, 29=8+9+12, 49=9+16+24 (non-dividing 2/3-power sums) | jsp921.lean | jsp921 |
 | JSP-000550 | disjoint equal-length intervals [1,3]/[4,6] and [2,5]/[6,9] have different lcms | jsp550.lean | jsp550 |
+| JSP-000877 | 561 = 3·11·17 is a Carmichael number (Korselt) | jsp877.lean | jsp877 |
 
 ## Environment
 
