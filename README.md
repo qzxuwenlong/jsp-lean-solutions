@@ -93,6 +93,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000651 | {6,7,8,9,10} is a 5-element sum-free subset of [1,10] | jsp651.lean | jsp651 |
 | JSP-000675 | {1,2,4,8} has 6 distinct two-term sums | jsp675.lean | jsp675 |
 | JSP-000297 | segmented sequence starts 1, 2, 4, 8 | jsp297.lean | jsp297 |
+| JSP-000240 | greedy odd-denominator Egyptian expansion of 2/3 terminates | jsp240.lean | jsp240 |
 
 ## Environment
 
