@@ -79,6 +79,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000550 | disjoint equal-length intervals [1,3]/[4,6] and [2,5]/[6,9] have different lcms | jsp550.lean | jsp550 |
 | JSP-000877 | 561 = 3·11·17 is a Carmichael number (Korselt) | jsp877.lean | jsp877 |
 | JSP-000911 | [1,10] contains 3-term APs with 4 distinct differences | jsp911.lean | jsp911 |
+| JSP-000941 | 3n+1 trajectory of 7 reaches 1 in 16 steps | jsp941.lean | jsp941 |
 
 ## Environment
 
