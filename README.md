@@ -85,6 +85,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000876 | three disjoint intervals with product ≡ 1 mod 17 | jsp876.lean | jsp876 |
 | JSP-000915 | {1,2,4,9,13} has all pairwise sums squarefree | jsp915.lean | jsp915 |
 | JSP-000883 | C(10,3)=120 divisible by all but one term of {8,7,6} | jsp883.lean | jsp883 |
+| JSP-001013 | 4-point set {0,1,3,7} has all 6 pairwise distances distinct | jsp1013.lean | jsp1013 |
 
 ## Environment
 
