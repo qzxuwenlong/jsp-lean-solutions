@@ -80,6 +80,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000877 | 561 = 3·11·17 is a Carmichael number (Korselt) | jsp877.lean | jsp877 |
 | JSP-000911 | [1,10] contains 3-term APs with 4 distinct differences | jsp911.lean | jsp911 |
 | JSP-000941 | 3n+1 trajectory of 7 reaches 1 in 16 steps | jsp941.lean | jsp941 |
+| JSP-000891 | (p−1)! ≡ −1 mod p for p = 5, 7, 11 (Wilson) | jsp891.lean | jsp891 |
 
 ## Environment
 
