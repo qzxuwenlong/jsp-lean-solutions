@@ -73,6 +73,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000579 | interval [2,8] holds distinct multiples 5,4,6,8 of 1,2,3,4 | jsp579.lean | jsp579 |
 | JSP-000948 | prime set {2,3}; interval [1,6] has exactly 4 multiples {2,3,4,6} | jsp948.lean | jsp948 |
 | JSP-000580 | from start 6, interval [6,9] (length 4) holds distinct multiples 7,6,9,8 of 1,2,3,4 | jsp580.lean | jsp580 |
+| JSP-000914 | coprime {1,2,3} leaves max gap 4 in [1,20] | jsp914.lean | jsp914 |
 
 ## Environment
 
