@@ -82,6 +82,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000941 | 3n+1 trajectory of 7 reaches 1 in 16 steps | jsp941.lean | jsp941 |
 | JSP-000891 | (p−1)! ≡ −1 mod p for p = 5, 7, 11 (Wilson) | jsp891.lean | jsp891 |
 | JSP-000920 | 9-element subset of [1,40], all pairwise sums ≡ 0 mod 4 | jsp920.lean | jsp920 |
+| JSP-000876 | three disjoint intervals with product ≡ 1 mod 17 | jsp876.lean | jsp876 |
 
 ## Environment
 
