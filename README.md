@@ -83,6 +83,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000891 | (p−1)! ≡ −1 mod p for p = 5, 7, 11 (Wilson) | jsp891.lean | jsp891 |
 | JSP-000920 | 9-element subset of [1,40], all pairwise sums ≡ 0 mod 4 | jsp920.lean | jsp920 |
 | JSP-000876 | three disjoint intervals with product ≡ 1 mod 17 | jsp876.lean | jsp876 |
+| JSP-000915 | {1,2,4,9,13} has all pairwise sums squarefree | jsp915.lean | jsp915 |
 
 ## Environment
 
