@@ -97,6 +97,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000299 | even 5-subset of [1,10] avoids subset sum 11 | jsp299.lean | jsp299 |
 | JSP-000634 | {1,4,9,16} is a 4-element Sidon set of squares | jsp634.lean | jsp634 |
 | JSP-000642 | 5 squares form an approximate AP | jsp642.lean | jsp642 |
+| JSP-000055 | 12 is a practical number | jsp55.lean | jsp55 |
 
 ## Environment
 
