@@ -99,6 +99,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000642 | 5 squares form an approximate AP | jsp642.lean | jsp642 |
 | JSP-000055 | 12 is a practical number | jsp55.lean | jsp55 |
 | JSP-000167 | 6-mark sparse ruler {0,1,2,6,10,13} measures 1..13 | jsp167.lean | jsp167 |
+| JSP-000062 | {1,2,5,10} is a 4-element Sidon set in [1,10] | jsp62.lean | jsp62 |
 
 ## Environment
 
