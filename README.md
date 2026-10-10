@@ -118,6 +118,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000783 | powerful 8 between squares 4 and 9 | jsp783.lean | jsp783 |
 | JSP-000774 | primes 7,11 enclose 8,9,10 with small prime factors | jsp774.lean | jsp774 |
 | JSP-000745 | parity coloring avoids difference 1 | jsp745.lean | jsp745 |
+| JSP-000778 | 2^3+1 = 9 = 3^2 powerful | jsp778.lean | jsp778 |
 
 ## Environment
 
