@@ -136,6 +136,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000826 | P5 independent-set counts 1,5,6,1,0 unimodal | jsp826.lean | jsp826 |
 | JSP-000801 | {1,2,4} all subset sums distinct | jsp801.lean | jsp801 |
 | JSP-000818 | 2 primitive root mod 5 | jsp818.lean | jsp818 |
+| JSP-000992 | primes 3,5,7 monochromatic 3AP under parity | jsp992.lean | jsp992 |
 
 ## Environment
 
