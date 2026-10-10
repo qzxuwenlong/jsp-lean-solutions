@@ -128,6 +128,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000800 | [6,7] terms have prime factor > 2 | jsp800.lean | jsp800 |
 | JSP-000885 | 13 = 1 + 2^2*3, 3 and 13 prime | jsp885.lean | jsp885 |
 | JSP-000986 | [1,2] product 2, least non-dividing prime 3 | jsp986.lean | jsp986 |
+| JSP-000945 | 13 - 2*1^2 = 11, 13 - 2*2^2 = 5 all prime | jsp945.lean | jsp945 |
 
 ## Environment
 
