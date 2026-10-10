@@ -131,6 +131,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000945 | 13 - 2*1^2 = 11, 13 - 2*2^2 = 5 all prime | jsp945.lean | jsp945 |
 | JSP-000947 | 7 - 2 = 5, 7 - 4 = 3 all prime | jsp947.lean | jsp947 |
 | JSP-000985 | mod 7 inverses (1, 4, 5) cover nonzero residues | jsp985.lean | jsp985 |
+| JSP-000909 | C(6,3)=20 least prime factor 2 <= 3 | jsp909.lean | jsp909 |
 
 ## Environment
 
