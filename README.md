@@ -117,6 +117,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000639 | prime 5 between 3 and 6, 5+6=11 prime | jsp639.lean | jsp639 |
 | JSP-000783 | powerful 8 between squares 4 and 9 | jsp783.lean | jsp783 |
 | JSP-000774 | primes 7,11 enclose 8,9,10 with small prime factors | jsp774.lean | jsp774 |
+| JSP-000745 | parity coloring avoids difference 1 | jsp745.lean | jsp745 |
 
 ## Environment
 
