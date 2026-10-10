@@ -109,6 +109,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000260 | unit-fraction subsums approximating one | jsp260.lean | jsp260 |
 | JSP-000221 | {1,2,4} represents every integer 0..7 | jsp221.lean | jsp221 |
 | JSP-000051 | {5,7,11} no element divides larger-pair sum | jsp51.lean | jsp51 |
+| JSP-000538 | smallest prime not dividing 120 is 7 | jsp538.lean | jsp538 |
 
 ## Environment
 
