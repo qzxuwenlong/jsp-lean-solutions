@@ -107,6 +107,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000143 | 3,5,7 consecutive primes in AP | jsp143.lean | jsp143 |
 | JSP-000049 | five integers as power of 2 plus prime | jsp49.lean | jsp49 |
 | JSP-000260 | unit-fraction subsums approximating one | jsp260.lean | jsp260 |
+| JSP-000221 | {1,2,4} represents every integer 0..7 | jsp221.lean | jsp221 |
 
 ## Environment
 
