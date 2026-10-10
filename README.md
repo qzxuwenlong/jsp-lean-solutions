@@ -114,6 +114,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000054 | cluster prime examples (p=5, p=7) | jsp54.lean | jsp54 |
 | JSP-000699 | 5 as sum of distinct squares of one color | jsp699.lean | jsp699 |
 | JSP-000630 | 2x2x2 cube dissected into 8 unit cubes | jsp630.lean | jsp630 |
+| JSP-000639 | prime 5 between 3 and 6, 5+6=11 prime | jsp639.lean | jsp639 |
 
 ## Environment
 
