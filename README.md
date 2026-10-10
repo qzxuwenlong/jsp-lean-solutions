@@ -103,6 +103,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000144 | {1,2,4,5} is a 4-element 3AP-free subset of [1,5] | jsp144.lean | jsp144 |
 | JSP-000050 | 9, 11, 13 as squarefree + power of 2 | jsp50.lean | jsp50 |
 | JSP-000271 | five sums of three cubes in [1,100] | jsp271.lean | jsp271 |
+| JSP-000069 | distinct triple sums of powers of two | jsp69.lean | jsp69 |
 
 ## Environment
 
