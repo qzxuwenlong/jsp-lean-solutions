@@ -111,6 +111,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000051 | {5,7,11} no element divides larger-pair sum | jsp51.lean | jsp51 |
 | JSP-000538 | smallest prime not dividing 120 is 7 | jsp538.lean | jsp538 |
 | JSP-000549 | four integers as prime-square multiple + square | jsp549.lean | jsp549 |
+| JSP-000054 | cluster prime examples (p=5, p=7) | jsp54.lean | jsp54 |
 
 ## Environment
 
