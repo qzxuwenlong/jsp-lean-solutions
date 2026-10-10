@@ -122,6 +122,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000713 | interval [2,5] has multiple of 2,3,5 | jsp713.lean | jsp713 |
 | JSP-000772 | [1,4] x [6,6] product = 144 = 12^2 | jsp772.lean | jsp772 |
 | JSP-000771 | primes 2,3 divide all of [2,4] | jsp771.lean | jsp771 |
+| JSP-000775 | 1*2*3*4 = 24 = 2^3 * 3 | jsp775.lean | jsp775 |
 
 ## Environment
 
