@@ -104,6 +104,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000050 | 9, 11, 13 as squarefree + power of 2 | jsp50.lean | jsp50 |
 | JSP-000271 | five sums of three cubes in [1,100] | jsp271.lean | jsp271 |
 | JSP-000069 | distinct triple sums of powers of two | jsp69.lean | jsp69 |
+| JSP-000143 | 3,5,7 consecutive primes in AP | jsp143.lean | jsp143 |
 
 ## Environment
 
