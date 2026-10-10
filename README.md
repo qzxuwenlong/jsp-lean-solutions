@@ -125,6 +125,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000775 | 1*2*3*4 = 24 = 2^3 * 3 | jsp775.lean | jsp775 |
 | JSP-000782 | 12 = 4+4+4, 4 = 2^2 powerful | jsp782.lean | jsp782 |
 | JSP-000784 | 12 = 4 + 8 two powerful numbers | jsp784.lean | jsp784 |
+| JSP-000800 | [6,7] terms have prime factor > 2 | jsp800.lean | jsp800 |
 
 ## Environment
 
