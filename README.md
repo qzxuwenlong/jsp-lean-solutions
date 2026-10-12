@@ -138,6 +138,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000818 | 2 primitive root mod 5 | jsp818.lean | jsp818 |
 | JSP-000992 | primes 3,5,7 monochromatic 3AP under parity | jsp992.lean | jsp992 |
 | JSP-000328 | 4!+1 = 25 = 5^2 | jsp328.lean | jsp328 |
+| JSP-000385 | 1,2,3,4 prime adjacent sums 3,5,7 | jsp385.lean | jsp385 |
 
 ## Environment
 
