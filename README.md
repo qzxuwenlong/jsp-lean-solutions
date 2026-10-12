@@ -137,6 +137,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000801 | {1,2,4} all subset sums distinct | jsp801.lean | jsp801 |
 | JSP-000818 | 2 primitive root mod 5 | jsp818.lean | jsp818 |
 | JSP-000992 | primes 3,5,7 monochromatic 3AP under parity | jsp992.lean | jsp992 |
+| JSP-000328 | 4!+1 = 25 = 5^2 | jsp328.lean | jsp328 |
 
 ## Environment
 
