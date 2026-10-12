@@ -141,6 +141,7 @@ Repository owner: **qzxuwenlong** (the submitting GitHub account).
 | JSP-000385 | 1,2,3,4 prime adjacent sums 3,5,7 | jsp385.lean | jsp385 |
 | JSP-000389 | factorial residues 1,2,6,3 mod 7 distinct | jsp389.lean | jsp389 |
 | JSP-000873 | 6 multiply perfect: 1+2+3+6 = 12 = 2*6 | jsp873.lean | jsp873 |
+| JSP-000892 | composite 25 divides 4!+1 = 25 | jsp892.lean | jsp892 |
 
 ## Environment
 
