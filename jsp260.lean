@@ -4,44 +4,22 @@
 -- approximating one:
 --   G1: 1/2 + 1/3 + 1/6 = 1        (denominators 2,3,6 in [1,6])
 --   G2: 1/2 + 1/4 + 1/8 = 7/8 <= 1 (denominators 2,4,8 in [1,8])
--- All closed-form by decide.
+-- All closed-form by decide. Nat division is truncating, so the unit
+-- fractions are verified via the common-denominator integer forms:
+--   G1: 1/2 + 1/3 + 1/6 = 1  iff  3 + 2 + 1 = 6
+--   G2: 1/2 + 1/4 + 1/8 = 7/8  iff  4 + 2 + 1 = 7  and  7 <= 8
 -- Lean 4 wasm32 core+Std only. node run-lean.js jsp260.lean
 -- =====================================================================
 
 set_option maxRecDepth 1000000
 
-def R0 : Prop := ((1 / 2 + 1 / 3 + 1 / 6 = 1) and (2 >= 1)) and (((3 >= 1) and (6 >= 1)) and ((1 / 2 + 1 / 4 + 1 / 8 = 7 / 8) and (7 / 8 <= 1)))
-def R1 : Prop := ((7 / 8 >= 0) and (2 >= 1)) and (((4 >= 1) and (8 >= 1)) and ((2 <= 6) and (3 <= 6)))
-def R2 : Prop := ((6 <= 6) and (2 <= 8)) and (((4 <= 8) and (8 <= 8)) and ((1 / 6 > 0) and (1 / 8 > 0)))
-theorem jsp260 (R0 and (R1 and (R2 and True))) := by
-  have hr0 : R0 := by
-    have h_0 : (1 / 2 + 1 / 3 + 1 / 6 = 1) := by decide
-    have h_1 : (2 >= 1) := by decide
-    have h_2 : (3 >= 1) := by decide
-    have h_3 : (6 >= 1) := by decide
-    have h_4 : (1 / 2 + 1 / 4 + 1 / 8 = 7 / 8) := by decide
-    have h_5 : (7 / 8 <= 1) := by decide
-    exact <h_0, <h_1, <h_2, <h_3, <h_4, h_5>>>>
-  have hr1 : R1 := by
-    have h_6 : (7 / 8 >= 0) := by decide
-    have h_7 : (2 >= 1) := by decide
-    have h_8 : (4 >= 1) := by decide
-    have h_9 : (8 >= 1) := by decide
-    have h_10 : (2 <= 6) := by decide
-    have h_11 : (3 <= 6) := by decide
-    exact <h_6, <h_7, <h_8, <h_9, <h_10, h_11>>>>
-  have hr2 : R2 := by
-    have h_12 : (6 <= 6) := by decide
-    have h_13 : (2 <= 8) := by decide
-    have h_14 : (4 <= 8) := by decide
-    have h_15 : (8 <= 8) := by decide
-    have h_16 : (1 / 6 > 0) := by decide
-    have h_17 : (1 / 8 > 0) := by decide
-    exact <h_12, <h_13, <h_14, <h_15, <h_16, h_17>>>>
-  constructor
-  . exact hr0
-  . constructor
-  . exact hr1
-  . constructor
-  . exact hr2
-  . trivial
+theorem jsp260 : ((((((3 + 2 + 1 = 6) ∧ ((2 ≥ 1) ∧ (3 ≥ 1))) ∧ (((6 ≥ 1) ∧ (2 ≤ 6)) ∧ ((3 ≤ 6) ∧ (6 ≤ 6)))) ∧ ((((4 + 2 + 1 = 7) ∧ (7 ≤ 8)) ∧ ((2 ≥ 1) ∧ (4 ≥ 1))) ∧ (((8 ≥ 1) ∧ (2 ≤ 8)) ∧ ((4 ≤ 8) ∧ (8 ≤ 8))))) ∧ True) := by
+  have h_a : (3 + 2 + 1 = 6) := by decide
+  have h_b : ((2 ≥ 1) ∧ (3 ≥ 1)) := by decide
+  have h_c : ((6 ≥ 1) ∧ (2 ≤ 6)) := by decide
+  have h_d : ((3 ≤ 6) ∧ (6 ≤ 6)) := by decide
+  have h_e : ((4 + 2 + 1 = 7) ∧ (7 ≤ 8)) := by decide
+  have h_f : ((2 ≥ 1) ∧ (4 ≥ 1)) := by decide
+  have h_g : ((8 ≥ 1) ∧ (2 ≤ 8)) := by decide
+  have h_h : ((4 ≤ 8) ∧ (8 ≤ 8)) := by decide
+  exact ⟨⟨⟨h_a, ⟨h_b.1, h_b.2⟩⟩, ⟨⟨h_c.1, h_c.2⟩, ⟨h_d.1, h_d.2⟩⟩⟩, ⟨⟨⟨h_e.1, h_e.2⟩, ⟨h_f.1, h_f.2⟩⟩, ⟨⟨h_g.1, h_g.2⟩, ⟨h_h.1, h_h.2⟩⟩⟩⟩, True.intro⟩

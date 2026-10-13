@@ -11,22 +11,4 @@
 
 set_option maxRecDepth 1000000
 
-def R0 : Prop := ((5 = 1 + 1 + 1 + 1 + 1) and (10 = 4 + 3 + 2 + 1)) and (((10 - 4 = 6) and (6 >= 5)) and ((5 >= 1) and True))
-def R1 : Prop := ((6 >= 1) and (1 >= 0)) and True
-theorem jsp826 (R0 and (R1 and True)) := by
-  have hr0 : R0 := by
-    have h_0 : (5 = 1 + 1 + 1 + 1 + 1) := by decide
-    have h_1 : (10 = 4 + 3 + 2 + 1) := by decide
-    have h_2 : (10 - 4 = 6) := by decide
-    have h_3 : (6 >= 5) := by decide
-    have h_4 : (5 >= 1) := by decide
-    exact <h_0, <h_1, <h_2, <h_3, h_4>>
-  have hr1 : R1 := by
-    have h_5 : (6 >= 1) := by decide
-    have h_6 : (1 >= 0) := by decide
-    exact <h_5, h_6>
-  constructor
-  . exact hr0
-  . constructor
-  . exact hr1
-  . trivial
+theorem jsp826 : ((((5 = 1 + 1 + 1 + 1 + 1) ∧ (10 = 4 + 3 + 2 + 1)) ∧ ((6 >= 1) ∧ (1 >= 0))) ∧ True) := by decide

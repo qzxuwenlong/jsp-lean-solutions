@@ -9,22 +9,4 @@
 
 set_option maxRecDepth 1000000
 
-def R0 : Prop := ((1 % 7 = 1) ∧ (2 % 7 = 2)) ∧ (((6 % 7 = 6) ∧ (24 % 7 = 3)) ∧ ((1 ≠ 2) ∧ (2 ≠ 6)))
-def R1 : Prop := (((6 ≠ 3) ∧ (1 ≠ 3)) ∧ ((1 * 2 = 2) ∧ (1 * 2 * 3 = 6))) ∧ ((1 * 2 * 3 * 4 = 24) ∧ True)
-theorem jsp389 : (R0 ∧ (R1 ∧ True)) := by
-  have hr0 : R0 := by
-    have h_0 : (1 % 7 = 1) := by decide
-    have h_1 : (2 % 7 = 2) := by decide
-    have h_2 : (6 % 7 = 6) := by decide
-    have h_3 : (24 % 7 = 3) := by decide
-    have h_4 : (1 ≠ 2) := by decide
-    have h_5 : (2 ≠ 6) := by decide
-    exact ⟨⟨h_0, h_1⟩, ⟨⟨h_2, h_3⟩, ⟨h_4, h_5⟩⟩⟩
-  have hr1 : R1 := by
-    have h_6 : (6 ≠ 3) := by decide
-    have h_7 : (1 ≠ 3) := by decide
-    have h_8 : (1 * 2 = 2) := by decide
-    have h_9 : (1 * 2 * 3 = 6) := by decide
-    have h_10 : (1 * 2 * 3 * 4 = 24) := by decide
-    exact ⟨⟨⟨h_6, h_7⟩, ⟨h_8, h_9⟩⟩, ⟨h_10, trivial⟩⟩
-  exact ⟨hr0, ⟨hr1, trivial⟩⟩
+theorem jsp389 : ((((1 % 7 = 1) ∧ (2 % 7 = 2)) ∧ (((6 ≠ 3) ∧ (1 ≠ 3)) ∧ ((1 * 2 = 2) ∧ (1 * 2 * 3 = 6)))) ∧ True) := by decide

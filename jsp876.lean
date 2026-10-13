@@ -19,18 +19,4 @@
 
 set_option maxRecDepth 1000000
 
-def R0 : Prop := ((((120 % 17 = 1) ∧ (332640 % 17 = 1)) ∧ ((32760 % 17 = 1) ∧ ((5 < 6) ∧ (11 < 12)))) ∧ (((1 ≤ 5) ∧ (6 ≤ 11)) ∧ ((12 ≤ 15) ∧ ((5 ≥ 1) ∧ (15 ≥ 1)))))
-
-theorem jsp876 : R0 := by
-
-  have h_0 : (120 % 17 = 1) := by decide
-  have h_1 : (332640 % 17 = 1) := by decide
-  have h_2 : (32760 % 17 = 1) := by decide
-  have h_3 : (5 < 6) := by decide
-  have h_4 : (11 < 12) := by decide
-  have h_5 : (1 ≤ 5) := by decide
-  have h_6 : (6 ≤ 11) := by decide
-  have h_7 : (12 ≤ 15) := by decide
-  have h_8 : (5 ≥ 1) := by decide
-  have h_9 : (15 ≥ 1) := by decide
-  exact ⟨⟨⟨h_0, h_1⟩, ⟨h_2, ⟨h_3, h_4⟩⟩⟩, ⟨⟨h_5, h_6⟩, ⟨h_7, ⟨h_8, h_9⟩⟩⟩⟩
+theorem jsp876 : ((((((120 % 17 = 1) ∧ (332640 % 17 = 1)) ∧ ((32760 % 17 = 1) ∧ ((5 < 6) ∧ (11 < 12)))) ∧ (((1 ≤ 5) ∧ (6 ≤ 11)) ∧ ((12 ≤ 15) ∧ ((5 ≥ 1) ∧ (15 ≥ 1)))))) ∧ True) := by decide

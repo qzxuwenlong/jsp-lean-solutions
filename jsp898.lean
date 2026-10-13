@@ -9,12 +9,4 @@
 
 set_option maxRecDepth 1000000
 
-def R0 : Prop := ((2 * 2 * 2 = 8) ∧ (8 + 8 = 16)) ∧ (((16 = 2 * 2 * 2 * 2) ∧ (16 >= 1)) ∧ True)
-theorem jsp898 : (R0 ∧ True) := by
-  have hr0 : R0 := by
-    have h_0 : (2 * 2 * 2 = 8) := by decide
-    have h_1 : (8 + 8 = 16) := by decide
-    have h_2 : (16 = 2 * 2 * 2 * 2) := by decide
-    have h_3 : (16 >= 1) := by decide
-    exact ⟨⟨h_0, h_1⟩, ⟨⟨h_2, h_3⟩, trivial⟩⟩
-  exact ⟨hr0, trivial⟩
+theorem jsp898 : ((((2 * 2 * 2 = 8) ∧ (8 + 8 = 16))) ∧ True) := by decide

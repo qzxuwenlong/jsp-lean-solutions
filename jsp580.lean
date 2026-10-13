@@ -18,26 +18,4 @@
 
 set_option maxRecDepth 1000000
 
-def R0 : Prop := (((((7 % 1 = 0) ∧ (6 % 2 = 0)) ∧ ((9 % 3 = 0) ∧ (8 % 4 = 0))) ∧ (((6 ≠ 7) ∧ (6 ≠ 8)) ∧ ((6 ≠ 9) ∧ ((7 ≠ 8) ∧ (7 ≠ 9))))) ∧ ((((8 ≠ 9) ∧ (6 ≥ 6)) ∧ ((6 ≤ 9) ∧ (7 ≥ 6))) ∧ (((7 ≤ 9) ∧ (8 ≥ 6)) ∧ ((8 ≤ 9) ∧ ((9 ≥ 6) ∧ (9 ≤ 9))))))
-
-theorem jsp580 : R0 := by
-
-  have h_0 : (7 % 1 = 0) := by decide
-  have h_1 : (6 % 2 = 0) := by decide
-  have h_2 : (9 % 3 = 0) := by decide
-  have h_3 : (8 % 4 = 0) := by decide
-  have h_4 : (6 ≠ 7) := by decide
-  have h_5 : (6 ≠ 8) := by decide
-  have h_6 : (6 ≠ 9) := by decide
-  have h_7 : (7 ≠ 8) := by decide
-  have h_8 : (7 ≠ 9) := by decide
-  have h_9 : (8 ≠ 9) := by decide
-  have h_10 : (6 ≥ 6) := by decide
-  have h_11 : (6 ≤ 9) := by decide
-  have h_12 : (7 ≥ 6) := by decide
-  have h_13 : (7 ≤ 9) := by decide
-  have h_14 : (8 ≥ 6) := by decide
-  have h_15 : (8 ≤ 9) := by decide
-  have h_16 : (9 ≥ 6) := by decide
-  have h_17 : (9 ≤ 9) := by decide
-  exact ⟨⟨⟨⟨h_0, h_1⟩, ⟨h_2, h_3⟩⟩, ⟨⟨h_4, h_5⟩, ⟨h_6, ⟨h_7, h_8⟩⟩⟩⟩, ⟨⟨⟨h_9, h_10⟩, ⟨h_11, h_12⟩⟩, ⟨⟨h_13, h_14⟩, ⟨h_15, ⟨h_16, h_17⟩⟩⟩⟩⟩
+theorem jsp580 : (((((((7 % 1 = 0) ∧ (6 % 2 = 0)) ∧ ((9 % 3 = 0) ∧ (8 % 4 = 0))) ∧ (((6 ≠ 7) ∧ (6 ≠ 8)) ∧ ((6 ≠ 9) ∧ ((7 ≠ 8) ∧ (7 ≠ 9))))) ∧ ((((8 ≠ 9) ∧ (6 ≥ 6)) ∧ ((6 ≤ 9) ∧ (7 ≥ 6))) ∧ (((7 ≤ 9) ∧ (8 ≥ 6)) ∧ ((8 ≤ 9) ∧ ((9 ≥ 6) ∧ (9 ≤ 9))))))) ∧ True) := by decide

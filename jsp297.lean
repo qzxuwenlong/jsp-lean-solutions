@@ -20,25 +20,4 @@
 
 set_option maxRecDepth 1000000
 
-def R0 : Prop := (((((1 ≠ 2) ∧ (1 ≠ 4)) ∧ ((2 ≠ 4) ∧ (1 + 2 ≠ 4))) ∧ (((1 ≠ 8) ∧ (2 ≠ 8)) ∧ ((4 ≠ 8) ∧ (1 + 2 ≠ 8)))) ∧ ((((2 + 4 ≠ 8) ∧ (1 + 2 + 4 ≠ 8)) ∧ ((1 + 4 = 5) ∧ (2 + 4 = 6))) ∧ (((1 + 2 + 4 = 7) ∧ (1 ≥ 1)) ∧ ((2 ≥ 1) ∧ ((4 ≥ 1) ∧ (8 ≥ 1))))))
-
-theorem jsp297 : R0 := by
-
-  have h_0 : (1 ≠ 2) := by decide
-  have h_1 : (1 ≠ 4) := by decide
-  have h_2 : (2 ≠ 4) := by decide
-  have h_3 : (1 + 2 ≠ 4) := by decide
-  have h_4 : (1 ≠ 8) := by decide
-  have h_5 : (2 ≠ 8) := by decide
-  have h_6 : (4 ≠ 8) := by decide
-  have h_7 : (1 + 2 ≠ 8) := by decide
-  have h_8 : (2 + 4 ≠ 8) := by decide
-  have h_9 : (1 + 2 + 4 ≠ 8) := by decide
-  have h_10 : (1 + 4 = 5) := by decide
-  have h_11 : (2 + 4 = 6) := by decide
-  have h_12 : (1 + 2 + 4 = 7) := by decide
-  have h_13 : (1 ≥ 1) := by decide
-  have h_14 : (2 ≥ 1) := by decide
-  have h_15 : (4 ≥ 1) := by decide
-  have h_16 : (8 ≥ 1) := by decide
-  exact ⟨⟨⟨⟨h_0, h_1⟩, ⟨h_2, h_3⟩⟩, ⟨⟨h_4, h_5⟩, ⟨h_6, h_7⟩⟩⟩, ⟨⟨⟨h_8, h_9⟩, ⟨h_10, h_11⟩⟩, ⟨⟨h_12, h_13⟩, ⟨h_14, ⟨h_15, h_16⟩⟩⟩⟩⟩
+theorem jsp297 : (((((((1 ≠ 2) ∧ (1 ≠ 4)) ∧ ((2 ≠ 4) ∧ (1 + 2 ≠ 4))) ∧ (((1 ≠ 8) ∧ (2 ≠ 8)) ∧ ((4 ≠ 8) ∧ (1 + 2 ≠ 8)))) ∧ ((((2 + 4 ≠ 8) ∧ (1 + 2 + 4 ≠ 8)) ∧ ((1 + 4 = 5) ∧ (2 + 4 = 6))) ∧ (((1 + 2 + 4 = 7) ∧ (1 ≥ 1)) ∧ ((2 ≥ 1) ∧ ((4 ≥ 1) ∧ (8 ≥ 1))))))) ∧ True) := by decide

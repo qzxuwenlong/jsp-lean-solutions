@@ -20,17 +20,4 @@
 
 set_option maxRecDepth 1000000
 
-def R0 : Prop := ((((Nat.choose 10 3 = 120) ∧ (120 % 6 = 0)) ∧ ((120 % 8 = 0) ∧ (120 % 7 ≠ 0))) ∧ (((8 = 7 + 1) ∧ (7 = 6 + 1)) ∧ ((8 > 7) ∧ ((7 > 6) ∧ (6 ≥ 1)))))
-
-theorem jsp883 : R0 := by
-
-  have h_0 : (Nat.choose 10 3 = 120) := by decide
-  have h_1 : (120 % 6 = 0) := by decide
-  have h_2 : (120 % 8 = 0) := by decide
-  have h_3 : (120 % 7 ≠ 0) := by decide
-  have h_4 : (8 = 7 + 1) := by decide
-  have h_5 : (7 = 6 + 1) := by decide
-  have h_6 : (8 > 7) := by decide
-  have h_7 : (7 > 6) := by decide
-  have h_8 : (6 ≥ 1) := by decide
-  exact ⟨⟨⟨h_0, h_1⟩, ⟨h_2, h_3⟩⟩, ⟨⟨h_4, h_5⟩, ⟨h_6, ⟨h_7, h_8⟩⟩⟩⟩
+theorem jsp883 : (((((((10 * 9 * 8) / (3 * 2 * 1) = 120) ∧ (120 % 6 = 0)) ∧ ((120 % 8 = 0) ∧ (120 % 7 ≠ 0))) ∧ (((8 = 7 + 1) ∧ (7 = 6 + 1)) ∧ ((8 > 7) ∧ ((7 > 6) ∧ (6 ≥ 1)))))) ∧ True) := by decide

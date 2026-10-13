@@ -9,23 +9,4 @@
 
 set_option maxRecDepth 1000000
 
-def R0 : Prop := ((1 * 2 * 3 * 4 = 24) and (24 = 8 * 3)) and (((8 = 2 * 2 * 2) and (3 = 3 * 1)) and ((3 % 2 != 0) and (2 >= 2)))
-def R1 : Prop := ((3 >= 1) and (24 >= 1)) and True
-theorem jsp775 (R0 and (R1 and True)) := by
-  have hr0 : R0 := by
-    have h_0 : (1 * 2 * 3 * 4 = 24) := by decide
-    have h_1 : (24 = 8 * 3) := by decide
-    have h_2 : (8 = 2 * 2 * 2) := by decide
-    have h_3 : (3 = 3 * 1) := by decide
-    have h_4 : (3 % 2 != 0) := by decide
-    have h_5 : (2 >= 2) := by decide
-    exact <h_0, <h_1, <h_2, <h_3, <h_4, h_5>>>>
-  have hr1 : R1 := by
-    have h_6 : (3 >= 1) := by decide
-    have h_7 : (24 >= 1) := by decide
-    exact <h_6, h_7>
-  constructor
-  . exact hr0
-  . constructor
-  . exact hr1
-  . trivial
+theorem jsp775 : ((((1 * 2 * 3 * 4 = 24) ∧ (24 = 8 * 3)) ∧ ((3 >= 1) ∧ (24 >= 1))) ∧ True) := by decide

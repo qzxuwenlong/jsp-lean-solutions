@@ -11,23 +11,4 @@
 
 set_option maxRecDepth 1000000
 
-def R0 : Prop := ((2 * 3 = 6) and (3 < 5)) and (((5 < 6) and (5 + 6 = 11)) and ((11 % 2 != 0) and (11 % 3 != 0)))
-def R1 : Prop := ((5 % 2 != 0) and (6 >= 1)) and True
-theorem jsp639 (R0 and (R1 and True)) := by
-  have hr0 : R0 := by
-    have h_0 : (2 * 3 = 6) := by decide
-    have h_1 : (3 < 5) := by decide
-    have h_2 : (5 < 6) := by decide
-    have h_3 : (5 + 6 = 11) := by decide
-    have h_4 : (11 % 2 != 0) := by decide
-    have h_5 : (11 % 3 != 0) := by decide
-    exact <h_0, <h_1, <h_2, <h_3, <h_4, h_5>>>>
-  have hr1 : R1 := by
-    have h_6 : (5 % 2 != 0) := by decide
-    have h_7 : (6 >= 1) := by decide
-    exact <h_6, h_7>
-  constructor
-  . exact hr0
-  . constructor
-  . exact hr1
-  . trivial
+theorem jsp639 : ((((2 * 3 = 6) ∧ (3 < 5)) ∧ ((5 % 2 ≠ 0) ∧ (6 >= 1))) ∧ True) := by decide

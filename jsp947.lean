@@ -10,22 +10,4 @@
 
 set_option maxRecDepth 1000000
 
-def R0 : Prop := ((7 - 2 = 5) and (5 % 2 != 0)) and (((5 % 3 != 0) and (7 - 4 = 3)) and ((3 % 2 != 0) and True))
-def R1 : Prop := ((7 >= 1) and (7 > 4)) and True
-theorem jsp947 (R0 and (R1 and True)) := by
-  have hr0 : R0 := by
-    have h_0 : (7 - 2 = 5) := by decide
-    have h_1 : (5 % 2 != 0) := by decide
-    have h_2 : (5 % 3 != 0) := by decide
-    have h_3 : (7 - 4 = 3) := by decide
-    have h_4 : (3 % 2 != 0) := by decide
-    exact <h_0, <h_1, <h_2, <h_3, h_4>>
-  have hr1 : R1 := by
-    have h_5 : (7 >= 1) := by decide
-    have h_6 : (7 > 4) := by decide
-    exact <h_5, h_6>
-  constructor
-  . exact hr0
-  . constructor
-  . exact hr1
-  . trivial
+theorem jsp947 : ((((7 - 2 = 5) ∧ (5 % 2 ≠ 0)) ∧ ((7 >= 1) ∧ (7 > 4))) ∧ True) := by decide

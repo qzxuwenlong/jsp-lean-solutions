@@ -9,10 +9,4 @@
 
 set_option maxRecDepth 1000000
 
-def R0 : Prop := ((1 + 2 + 3 + 6 = 12) ∧ (12 = 2 * 6)) ∧ True
-theorem jsp873 : (R0 ∧ True) := by
-  have hr0 : R0 := by
-    have h_0 : (1 + 2 + 3 + 6 = 12) := by decide
-    have h_1 : (12 = 2 * 6) := by decide
-    exact ⟨⟨h_0, h_1⟩, trivial⟩
-  exact ⟨hr0, trivial⟩
+theorem jsp873 : ((((1 + 2 + 3 + 6 = 12) ∧ (12 = 2 * 6))) ∧ True) := by decide

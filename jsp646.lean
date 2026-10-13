@@ -17,41 +17,4 @@
 
 set_option maxRecDepth 1000000
 
-def R0 : Prop := ((((5 + 6 ≥ 11) ∧ ((5 + 7 ≥ 11) ∧ (5 + 8 ≥ 11))) ∧ (((5 + 9 ≥ 11) ∧ (5 + 10 ≥ 11)) ∧ ((6 + 7 ≥ 11) ∧ (6 + 8 ≥ 11)))) ∧ ((((6 + 9 ≥ 11) ∧ (6 + 10 ≥ 11)) ∧ ((7 + 8 ≥ 11) ∧ (7 + 9 ≥ 11))) ∧ (((7 + 10 ≥ 11) ∧ (8 + 9 ≥ 11)) ∧ ((8 + 10 ≥ 11) ∧ (9 + 10 ≥ 11)))))
-theorem row0 : R0 := by
-  have h_0 : (5 + 6 ≥ 11) := by decide
-  have h_1 : (5 + 7 ≥ 11) := by decide
-  have h_2 : (5 + 8 ≥ 11) := by decide
-  have h_3 : (5 + 9 ≥ 11) := by decide
-  have h_4 : (5 + 10 ≥ 11) := by decide
-  have h_5 : (6 + 7 ≥ 11) := by decide
-  have h_6 : (6 + 8 ≥ 11) := by decide
-  have h_7 : (6 + 9 ≥ 11) := by decide
-  have h_8 : (6 + 10 ≥ 11) := by decide
-  have h_9 : (7 + 8 ≥ 11) := by decide
-  have h_10 : (7 + 9 ≥ 11) := by decide
-  have h_11 : (7 + 10 ≥ 11) := by decide
-  have h_12 : (8 + 9 ≥ 11) := by decide
-  have h_13 : (8 + 10 ≥ 11) := by decide
-  have h_14 : (9 + 10 ≥ 11) := by decide
-  exact ⟨⟨⟨h_0, ⟨h_1, h_2⟩⟩, ⟨⟨h_3, h_4⟩, ⟨h_5, h_6⟩⟩⟩, ⟨⟨⟨h_7, h_8⟩, ⟨h_9, h_10⟩⟩, ⟨⟨h_11, h_12⟩, ⟨h_13, h_14⟩⟩⟩⟩
-
-def R1 : Prop := ((((5 ≥ 1) ∧ ((5 ≤ 10) ∧ (6 ≥ 1))) ∧ ((6 ≤ 10) ∧ ((7 ≥ 1) ∧ (7 ≤ 10)))) ∧ (((8 ≥ 1) ∧ ((8 ≤ 10) ∧ (9 ≥ 1))) ∧ ((9 ≤ 10) ∧ ((10 ≥ 1) ∧ (10 ≤ 10)))))
-theorem row1 : R1 := by
-  have h_0 : (5 ≥ 1) := by decide
-  have h_1 : (5 ≤ 10) := by decide
-  have h_2 : (6 ≥ 1) := by decide
-  have h_3 : (6 ≤ 10) := by decide
-  have h_4 : (7 ≥ 1) := by decide
-  have h_5 : (7 ≤ 10) := by decide
-  have h_6 : (8 ≥ 1) := by decide
-  have h_7 : (8 ≤ 10) := by decide
-  have h_8 : (9 ≥ 1) := by decide
-  have h_9 : (9 ≤ 10) := by decide
-  have h_10 : (10 ≥ 1) := by decide
-  have h_11 : (10 ≤ 10) := by decide
-  exact ⟨⟨⟨h_0, ⟨h_1, h_2⟩⟩, ⟨h_3, ⟨h_4, h_5⟩⟩⟩, ⟨⟨h_6, ⟨h_7, h_8⟩⟩, ⟨h_9, ⟨h_10, h_11⟩⟩⟩⟩
-
-theorem jsp646 :
-  (R0 ∧ R1) := by
-  exact ⟨row0, row1⟩
+theorem jsp646 : ((((((5 + 6 ≥ 11) ∧ ((5 + 7 ≥ 11) ∧ (5 + 8 ≥ 11))) ∧ (((5 + 9 ≥ 11) ∧ (5 + 10 ≥ 11)) ∧ ((6 + 7 ≥ 11) ∧ (6 + 8 ≥ 11)))) ∧ ((((6 + 9 ≥ 11) ∧ (6 + 10 ≥ 11)) ∧ ((7 + 8 ≥ 11) ∧ (7 + 9 ≥ 11))) ∧ (((7 + 10 ≥ 11) ∧ (8 + 9 ≥ 11)) ∧ ((8 + 10 ≥ 11) ∧ (9 + 10 ≥ 11))))) ∧ ((((5 ≥ 1) ∧ ((5 ≤ 10) ∧ (6 ≥ 1))) ∧ ((6 ≤ 10) ∧ ((7 ≥ 1) ∧ (7 ≤ 10)))) ∧ (((8 ≥ 1) ∧ ((8 ≤ 10) ∧ (9 ≥ 1))) ∧ ((9 ≤ 10) ∧ ((10 ≥ 1) ∧ (10 ≤ 10)))))) ∧ True) := by decide

@@ -17,42 +17,4 @@
 
 set_option maxRecDepth 1000000
 
-
-def R0 : Prop := ((((5 + 4 = 9) ∧ ((4 = 2 * 2) ∧ (5 % 4 ≠ 0))) ∧ (((9 % 2 = 1) ∧ (5 ≥ 1)) ∧ ((7 + 4 = 11) ∧ (4 = 2 * 2)))) ∧ (((7 % 4 ≠ 0) ∧ ((11 % 2 = 1) ∧ (7 ≥ 1))) ∧ (((11 + 2 = 13) ∧ (2 = 2)) ∧ ((11 % 4 ≠ 0) ∧ (11 % 9 ≠ 0)))))
-
-def R1 : Prop := ((13 % 2 = 1) ∧ (11 ≥ 1))
-
-theorem jsp50 (R0 ∧ (R1 ∧ True)) :=
-
-  by
-
-  have hr0 : R0 := by
-
-    have h_0 : (5 + 4 = 9) := by decide
-    have h_1 : (4 = 2 * 2) := by decide
-    have h_2 : (5 % 4 ≠ 0) := by decide
-    have h_3 : (9 % 2 = 1) := by decide
-    have h_4 : (5 ≥ 1) := by decide
-    have h_5 : (7 + 4 = 11) := by decide
-    have h_6 : (4 = 2 * 2) := by decide
-    have h_7 : (7 % 4 ≠ 0) := by decide
-    have h_8 : (11 % 2 = 1) := by decide
-    have h_9 : (7 ≥ 1) := by decide
-    have h_10 : (11 + 2 = 13) := by decide
-    have h_11 : (2 = 2) := by decide
-    have h_12 : (11 % 4 ≠ 0) := by decide
-    have h_13 : (11 % 9 ≠ 0) := by decide
-    exact ⟨⟨⟨h_0, ⟨h_1, h_2⟩⟩, ⟨⟨h_3, h_4⟩, ⟨h_5, h_6⟩⟩⟩, ⟨⟨h_7, ⟨h_8, h_9⟩⟩, ⟨⟨h_10, h_11⟩, ⟨h_12, h_13⟩⟩⟩⟩
-
-  have hr1 : R1 := by
-
-    have h_14 : (13 % 2 = 1) := by decide
-    have h_15 : (11 ≥ 1) := by decide
-    exact ⟨h_14, h_15⟩
-
-  constructor
-
-  · exact hr0
-
-  · trivial
-
+theorem jsp50 : ((((((5 + 4 = 9) ∧ ((4 = 2 * 2) ∧ (5 % 4 ≠ 0))) ∧ (((9 % 2 = 1) ∧ (5 ≥ 1)) ∧ ((7 + 4 = 11) ∧ (4 = 2 * 2)))) ∧ (((7 % 4 ≠ 0) ∧ ((11 % 2 = 1) ∧ (7 ≥ 1))) ∧ (((11 + 2 = 13) ∧ (2 = 2)) ∧ ((11 % 4 ≠ 0) ∧ (11 % 9 ≠ 0))))) ∧ ((13 % 2 = 1) ∧ (11 ≥ 1))) ∧ True) := by decide

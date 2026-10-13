@@ -19,26 +19,4 @@
 
 set_option maxRecDepth 1000000
 
-def R0 : Prop := (((((Nat.factorial 4 = 24) ∧ (24 % 5 = 4)) ∧ ((4 + 1 = 5) ∧ (5 % 2 = 1))) ∧ (((5 ≥ 3) ∧ (Nat.factorial 6 = 720)) ∧ ((720 % 7 = 6) ∧ ((6 + 1 = 7) ∧ (7 % 2 = 1))))) ∧ ((((7 ≥ 3) ∧ (Nat.factorial 10 = 3628800)) ∧ ((3628800 % 11 = 10) ∧ (10 + 1 = 11))) ∧ (((11 % 2 = 1) ∧ (11 ≥ 3)) ∧ ((5 ≠ 7) ∧ ((5 ≠ 11) ∧ (7 ≠ 11))))))
-
-theorem jsp891 : R0 := by
-
-  have h_0 : (Nat.factorial 4 = 24) := by decide
-  have h_1 : (24 % 5 = 4) := by decide
-  have h_2 : (4 + 1 = 5) := by decide
-  have h_3 : (5 % 2 = 1) := by decide
-  have h_4 : (5 ≥ 3) := by decide
-  have h_5 : (Nat.factorial 6 = 720) := by decide
-  have h_6 : (720 % 7 = 6) := by decide
-  have h_7 : (6 + 1 = 7) := by decide
-  have h_8 : (7 % 2 = 1) := by decide
-  have h_9 : (7 ≥ 3) := by decide
-  have h_10 : (Nat.factorial 10 = 3628800) := by decide
-  have h_11 : (3628800 % 11 = 10) := by decide
-  have h_12 : (10 + 1 = 11) := by decide
-  have h_13 : (11 % 2 = 1) := by decide
-  have h_14 : (11 ≥ 3) := by decide
-  have h_15 : (5 ≠ 7) := by decide
-  have h_16 : (5 ≠ 11) := by decide
-  have h_17 : (7 ≠ 11) := by decide
-  exact ⟨⟨⟨⟨h_0, h_1⟩, ⟨h_2, h_3⟩⟩, ⟨⟨h_4, h_5⟩, ⟨h_6, ⟨h_7, h_8⟩⟩⟩⟩, ⟨⟨⟨h_9, h_10⟩, ⟨h_11, h_12⟩⟩, ⟨⟨h_13, h_14⟩, ⟨h_15, ⟨h_16, h_17⟩⟩⟩⟩⟩
+theorem jsp891 : (((((((4 * 3 * 2 * 1 = 24) ∧ (24 % 5 = 4)) ∧ ((4 + 1 = 5) ∧ (5 % 2 = 1))) ∧ (((5 ≥ 3) ∧ (6 * 5 * 4 * 3 * 2 * 1 = 720)) ∧ ((720 % 7 = 6) ∧ ((6 + 1 = 7) ∧ (7 % 2 = 1))))) ∧ ((((7 ≥ 3) ∧ (10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 = 3628800)) ∧ ((3628800 % 11 = 10) ∧ (10 + 1 = 11))) ∧ (((11 % 2 = 1) ∧ (11 ≥ 3)) ∧ ((5 ≠ 7) ∧ ((5 ≠ 11) ∧ (7 ≠ 11))))))) ∧ True) := by decide

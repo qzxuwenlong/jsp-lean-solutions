@@ -16,14 +16,4 @@
 
 set_option maxRecDepth 1000000
 
-def R0 : Prop := (((1 + 2 + 3 + 6 = 12) ∧ ((1 + 11 = 12) ∧ (Nat.gcd 6 11 = 1))) ∧ ((6 ≠ 11) ∧ ((6 ≥ 1) ∧ (11 ≥ 1))))
-
-theorem jsp680 : R0 := by
-
-  have h_0 : (1 + 2 + 3 + 6 = 12) := by decide
-  have h_1 : (1 + 11 = 12) := by decide
-  have h_2 : (Nat.gcd 6 11 = 1) := by decide
-  have h_3 : (6 ≠ 11) := by decide
-  have h_4 : (6 ≥ 1) := by decide
-  have h_5 : (11 ≥ 1) := by decide
-  exact ⟨⟨h_0, ⟨h_1, h_2⟩⟩, ⟨h_3, ⟨h_4, h_5⟩⟩⟩
+theorem jsp680 : (((((1 + 2 + 3 + 6 = 12) ∧ ((1 + 11 = 12) ∧ (Nat.gcd 6 11 = 1))) ∧ ((6 ≠ 11) ∧ ((6 ≥ 1) ∧ (11 ≥ 1))))) ∧ True) := by decide

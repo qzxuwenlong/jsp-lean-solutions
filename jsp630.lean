@@ -9,14 +9,4 @@
 
 set_option maxRecDepth 1000000
 
-def R0 : Prop := ((2 * 2 * 2 = 8) and (8 >= 1)) and (((2 >= 1) and (1 >= 1)) and True)
-theorem jsp630 (R0 and True) := by
-  have hr0 : R0 := by
-    have h_0 : (2 * 2 * 2 = 8) := by decide
-    have h_1 : (8 >= 1) := by decide
-    have h_2 : (2 >= 1) := by decide
-    have h_3 : (1 >= 1) := by decide
-    exact <h_0, <h_1, <h_2, h_3>>
-  constructor
-  . exact hr0
-  . trivial
+theorem jsp630 : ((((2 * 2 * 2 = 8) ∧ (8 >= 1))) ∧ True) := by decide

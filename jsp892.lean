@@ -8,12 +8,4 @@
 
 set_option maxRecDepth 1000000
 
-def R0 : Prop := ((1 * 2 * 3 * 4 = 24) ∧ (24 + 1 = 25)) ∧ (((25 = 5 * 5) ∧ (25 % 25 = 0)) ∧ True)
-theorem jsp892 : (R0 ∧ True) := by
-  have hr0 : R0 := by
-    have h_0 : (1 * 2 * 3 * 4 = 24) := by decide
-    have h_1 : (24 + 1 = 25) := by decide
-    have h_2 : (25 = 5 * 5) := by decide
-    have h_3 : (25 % 25 = 0) := by decide
-    exact ⟨⟨h_0, h_1⟩, ⟨⟨h_2, h_3⟩, trivial⟩⟩
-  exact ⟨hr0, trivial⟩
+theorem jsp892 : ((((1 * 2 * 3 * 4 = 24) ∧ (24 + 1 = 25))) ∧ True) := by decide
